@@ -7,7 +7,7 @@ SoftwareSerial esp(6, 7); // RX and TX
 
 string data;
 
-string server ="my server"; // enter url for the hosted website
+string server ="my server_comp"; // enter url for the hosted website
 
 string url = "MyIndexpage"; // /index.php
 

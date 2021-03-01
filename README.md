@@ -9,4 +9,4 @@ The data from the solar tracker is sent to a through an ESP2266 module to the ow
 ![Optional Text](./pcb.png)
 
 ### Working
-The circuit uses two LDRs as inputs to ATMEGA328P. THe arduino compares the voltages and tilts the servo motor connected to one of the pins to the side that is receiving more sunlight. The program ensures that the solar panel is always oriented 90 degress towards the sun for optimum photovoltaic generation ef energy.
+The circuit uses two LDRs as inputs to ATMEGA328P. The arduino compares the voltages and tilts the servo motor connected to one of the pins to the side that is receiving more sunlight. The program ensures that the solar panel is always oriented 90 degress towards the sun for optimum photovoltaic generation ef energy.

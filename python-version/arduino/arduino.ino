@@ -1,0 +1,24 @@
+// return values from the potentiometer 
+
+
+void setup(){
+    Serial.begin(9600);
+}
+
+void loop(){
+    // read A0
+    int val1 = analogRead(0);
+
+    // read A1
+    int val2 = analogRead(5);
+
+    // Display the values
+    Serial.print(val1);
+    Serial.print(" ");
+    Serial.print(val2);
+    Serial.print("\n");
+
+    // wait
+    delay(50);
+
+}
